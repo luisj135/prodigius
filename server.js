@@ -1,7 +1,6 @@
 var express = require('express')
 
 var app = express()
-var port = process.env.PORT || 3000
 
 app.set('view engine', 'pug')
 
@@ -9,7 +8,7 @@ app.use(express.static('public'))
 
 
 app.get('/', function (req, res) {
-  res.send('hi')
+  res.render('index', {'title': 'Prodigius DeMO'})
 })
 
 app.listen(3000, function (err) {

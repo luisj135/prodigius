@@ -10905,8 +10905,47 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
 .menu_pri .tab {
   width: 25%; }
 
+.menu_pri .nav-content .tabs .tab .active {
+  background-color: #f8f3f0; }
+
 .diagram_stats .nav-extended .nav-content .tabs .active {
   background-color: white; }
 
 .diagram_stats .nav-extended .nav-content .tabs .indicator {
   background-color: white; }
+
+.site-footer .dropdown-button {
+  background-color: #4daf7b; }
+
+.site-footer .dropdown-content a {
+  color: #8e8071; }
+
+.site-footer {
+  color: white;
+  font-weight: bold; }
+
+.site-footer i {
+  margin-top: 10px;
+  display: inline-block; }
+
+.site-footer p {
+  display: inline-block; }
+
+.yellow {
+  background-color: #ffeb3b !important;
+  border-left: 2px solid white;
+  margin-left: 0px; }
+
+.reds {
+  border-left: 2px solid white; }
+
+.stats-data li a, .stats-links li a {
+  margin-left: 0px; }
+
+#diagram #data_transfer .stats-links a i {
+  display: inline-block;
+  width: 100%; }
+
+#month #data_cart .stats-links a i {
+  display: inline-block;
+  width: 100%; }

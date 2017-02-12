@@ -1,0 +1,32 @@
+html
+  head
+    title Wiget Test
+    meta(name='viweport', content='width=device-with, initial-scale=1.0, user-scalable=no')
+    meta(charset='utf-8')
+    link(rel='stylesheet', type='text/css', href='css/styles.css')
+    script(src='https://use.fontawesome.com/a1709f461f.js')
+    script(type='text/javascript', src='https://www.gstatic.com/charts/loader.js')
+    script(type='text/javascript', src="https://www.google.com/jsapi?autoload= \
+      {'modules':[{'name':'visualization','version':'1.1','packages':\
+      ['corechart']}]}")
+
+  body
+    section#main-controller
+      
+    footer.site-footer
+      .container
+        .row
+          .col.s12.l3.center-aling
+            a.dropdown-button.btn(href='#', data-activates='dropdown1')   Idioma  
+            ul#dropdown1.dropdown-content
+              li
+                a(href='#!') Español
+              li
+                a(href='#!') Ingles
+          .col.s12.l3.push-l6.center-aling
+            i.fa.fa-copyright(aria-hidden='true')
+            p Factolabs.com
+    // Import jQuery before materialize.js
+    script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
+    script(type='text/javascript', src='js/materialize.min.js')
+    script(type='text/javascript', src='js/apps.js')
