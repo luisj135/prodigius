@@ -1,0 +1,29 @@
+{
+  "name": "prodigius",
+  "version": "1.0.0",
+  "description": "Prueba para Frontend en prodigius",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luisj135/prodigius.git"
+  },
+  "keywords": [
+    "frontend",
+    "test",
+    "prueba"
+  ],
+  "author": "Luis Jhoham Venegas Tobar",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/luisj135/prodigius/issues"
+  },
+  "homepage": "https://github.com/luisj135/prodigius#readme",
+  "dependencies": {
+    "glup": "^1.0.14",
+    "gulp-sass": "^3.1.0",
+    "materialize-css": "^0.98.0"
+  }
+}
