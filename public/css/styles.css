@@ -10787,6 +10787,9 @@ body {
   margin: 25px 0px; }
 
 .diagram_stats {
+  padding: 0px; }
+
+.diagram_stats #diagram {
   background-color: white;
   padding: 0px; }
 
@@ -10815,6 +10818,10 @@ body {
   text-transform: uppercase;
   font-weight: bold; }
 
+.diagram_stats #month {
+  background-color: white;
+  padding: 0px; }
+
 #data_cart .stats-links li a i {
   color: white;
   font-size: 30px;
@@ -10835,7 +10842,8 @@ nav {
   color: #8e8071;
   width: 100%;
   height: 56px;
-  line-height: 56px; }
+  line-height: 56px;
+  background-color: transparent; }
 
 nav a span {
   color: #8e8071; }
@@ -10850,7 +10858,26 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
   background-color: #4daf7b; }
 
 .diagram_stats .tabs-transparent {
-  background-color: white; }
+  background-color: transparent; }
+
+.diagram_stats .nav-extended {
+  background-color: transparent;
+  border: none;
+  box-shadow: none; }
+
+.diagram_stats .nav-extended .nav-content {
+  background-color: transparent; }
+
+.diagram_stats .nav-extended .nav-content .tabs {
+  background-color: transparent; }
+
+.diagram_stats .nav-extended .nav-content .tab {
+  border: 1px solid white;
+  border-radius: 5px 5px 0px 0px;
+  min-width: 49.624%; }
+
+.diagram_stats .nav-extended .nav-content .tab:nth-child(1) {
+  margin-right: 4px; }
 
 .menu_pri .tabs-transparent {
   background-color: white; }
@@ -10874,3 +10901,12 @@ nav i, nav [class^="mdi-"], nav [class*="mdi-"], nav i.material-icons {
   margin-left: 0px;
   margin-right: 0px;
   padding: 2px 6px; }
+
+.menu_pri .tab {
+  width: 25%; }
+
+.diagram_stats .nav-extended .nav-content .tabs .active {
+  background-color: white; }
+
+.diagram_stats .nav-extended .nav-content .tabs .indicator {
+  background-color: white; }
