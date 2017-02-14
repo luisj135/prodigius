@@ -1,0 +1,17 @@
+{
+  "wiget": {
+  		"name": "John Raymons",
+  		"description": "Your talent amazes! This is awesome. Excited to see the final product.",
+  		"img": "images/bg_user_der.png",
+  		"data": {
+  			"view": "176",
+  			"comments": "156",
+  			"like": "45"
+  		}
+  	},
+  "perfil": {
+  		"name": "COURTNEY TIMMONS",
+  		"followers": "15,323",
+  		"img": "images/bg_user_iz.png"
+  	}
+}

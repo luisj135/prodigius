@@ -3,14 +3,12 @@ var sass = require('gulp-sass')
 var babel = require('babelify')
 var browserify = require('browserify')
 var source = require('vinyl-source-stream')
-var rename = require('gulp-rename');
-
-
-gulp.task('styles', function(){
-    gulp
-        .src('sass/styles.scss')
-        .pipe(sass())
-        .pipe(gulp.dest('public/css'));
+var rename = require('gulp-rename')
+gulp.task('styles', function () {
+  gulp
+    .src('sass/styles.scss')
+    .pipe(sass())
+    .pipe(gulp.dest('public/css'))
 })
 
 gulp.task('assets', function () {
@@ -41,7 +39,12 @@ gulp.task('scripts', function () {
     .pipe(source('index.js'))
     .pipe(rename('apps.js'))
     .pipe(gulp.dest('public/js'))
-
 })
 
-gulp.task('default', ['styles', 'assets', 'scripts'])
+gulp.task('json', function () {
+  gulp
+    .src('src/*')
+    .pipe(gulp.dest('public/js'))
+})
+
+gulp.task('default', ['styles', 'assets', 'scripts', 'json'])

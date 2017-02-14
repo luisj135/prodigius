@@ -20,9 +20,9 @@ html
             a.dropdown-button.btn(href='#', data-activates='dropdown1')   Idioma  
             ul#dropdown1.dropdown-content
               li
-                a(href='#!') Español
+                a(href='#!' onclick="${window.lang.bind(null, 'es')}") Español
               li
-                a(href='#!') Ingles
+                a(href='#!' onclick="${window.lang.bind(null, 'en-US')}") Ingles
           .col.s12.l3.push-l6.center-aling
             i.fa.fa-copyright(aria-hidden='true')
             p Factolabs.com
@@ -30,3 +30,10 @@ html
     script(type='text/javascript', src='https://code.jquery.com/jquery-2.1.1.min.js')
     script(type='text/javascript', src='js/materialize.min.js')
     script(type='text/javascript', src='js/apps.js')
+    script(type='text/javascript').
+      function lang(locale) {
+      console.log('entro')
+        window.localStorage.locale = locale
+        window.location.reload()
+        return false
+      }
